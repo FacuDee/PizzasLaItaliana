@@ -6,21 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestras Pizzas</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        const image = document.getElementById('myImage');
-
-        image.addEventListener('click', function () {
-            if (image.requestFullscreen) {
-                image.requestFullscreen();
-            } else if (image.mozRequestFullScreen) { // Firefox
-                image.mozRequestFullScreen();
-            } else if (image.webkitRequestFullscreen) { // Chrome, Safari y Opera
-                image.webkitRequestFullscreen();
-            } else if (image.msRequestFullscreen) { // IE/Edge
-                image.msRequestFullscreen();
-            }
-        });
-    </script>
 </head>
 
 <body>
@@ -39,7 +24,7 @@
     <p class="texto">TODAS LAS VARIEDADES</p>
 
     <main>
-
+        
         <div class="gallery">
             <div class="image-container">
                 <img src="./IMGS/pizza1.jpg" alt="pizza" id="myImage">
@@ -89,18 +74,18 @@
                 <img src="./IMGS/pizza11.jpg" alt="pizza" id="myImage">
                 <h5>La Italiana - $3500</h5>
             </div>
-
+            
         </div>
 
     </main>
 
     <footer>
         <div class="contacto">
-            <div class="tels">
-                <p>Nuestros teléfonos:</p>
-                <p>Tel - 45684432</p>
-                <p>Cel - 1146502020</p>
-            </div>
+                <div class="tels">
+            <p>Nuestros teléfonos:</p>
+            <p>Tel - 45684432</p>
+            <p>Cel - 1146502020</p>
+                </div>
             <hr>
             <p class="copy">&copy; 2023 Created by FacuDee. Todos los derechos reservados. </p>
         </div>
