@@ -46,7 +46,7 @@ span {
 
 nav ul {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -55,7 +55,7 @@ nav ul {
 
 nav li {
   font-family: 'Indie Flower', cursive;
-  margin: 0 3rem;
+  margin: 0 4rem;
 }
 
 a {
@@ -161,6 +161,15 @@ footer {
   padding-top: 20px;
   font-size: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icons {
+  display: flex;
+  padding-top: 40px;
+}
+
+.icons img {
+  padding: 0 20px;
 }
 
 /* GALERÍA IMÁGENES (nuestraspizzas.html) */
@@ -350,7 +359,7 @@ h2 {
   }
 
   nav li {
-    margin: 0rem 3rem;
+    margin: 0rem 1rem;
   }
 
   main {
