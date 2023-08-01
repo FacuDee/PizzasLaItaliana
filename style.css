@@ -247,6 +247,8 @@ input#input2,
 input#input3 {
   
   text-align: center;
+  height: 30px;
+  border-radius: 10px;
 }
 
 
