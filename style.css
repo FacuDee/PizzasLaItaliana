@@ -21,7 +21,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ee0000;
+  background-color: #cc0000;
   color: white;
 }
 
@@ -121,7 +121,7 @@ main {
   transition-duration: .2s;
   transition-timing-function: ease;
   transform: scale(1.1); 
-  border: 5px solid #ee0000;
+  border: 5px solid #cc0000;
 }
 
 #myImage {
@@ -354,6 +354,10 @@ h2 {
 
   nav li {
     margin: 0rem 1rem;
+  }
+
+  p.texto {
+    font-size: 16px;
   }
 
   main {
